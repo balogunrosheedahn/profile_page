@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:background="@null"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            tools:listitem="@layout/phone_spinner_item" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#716E6E"
+            android:layout_marginHorizontal="3dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="70234567" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProfilePage</string>
+
+    <string-array name="Countries">
+        <item>All Countries</item>
+        <item>Aus</item>
+        <item>China</item>
+        <item>NG</item>
+    </string-array>
+</resources>
